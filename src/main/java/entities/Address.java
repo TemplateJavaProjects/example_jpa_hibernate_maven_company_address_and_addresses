@@ -12,17 +12,10 @@ public class Address {
     private String street;
     private String number;
 
+    //erased
+    //@OneToOne(mappedBy = "addressOfThisCompany")
+    //private Company company;
 
-    @OneToOne(mappedBy = "addressOfThisCompany")
-    private Company company;
-
-    public Company getCompany() {
-        return company;
-    }
-
-    public void setCompany(Company company) {
-        this.company = company;
-    }
     public String getStreet() {
         return street;
     }

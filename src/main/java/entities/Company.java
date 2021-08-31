@@ -6,13 +6,15 @@ import javax.persistence.*;
 public class Company {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    //erased
+    //@GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
     private int budget;
 
     @OneToOne(cascade = CascadeType.PERSIST)
-    @JoinColumn(name = "address_fk")
+    @JoinColumn(name = "sharedAddressPK")
+    @MapsId
     private Address addressOfThisCompany;
 
     public int getBudget() {

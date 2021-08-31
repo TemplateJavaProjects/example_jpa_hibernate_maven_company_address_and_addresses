@@ -1,6 +1,5 @@
 package main;
 
-import embeddables.Address;
 import entities.Company;
 
 import javax.persistence.Persistence;
@@ -14,12 +13,9 @@ public class Main {
         var emf = Persistence.createEntityManagerFactory("my-persistence-unit");
         var em1 = emf.createEntityManager();
 
-        Address address = new Address();
-        address.setStreet("Katowicka");
-        address.setNumber("123a");
-
         Company company = new Company();
-        company.setAddress(address);
+        company.setStreet("Katowicka");
+        company.setNumber("123a");
         company.setBudget(100_000);
 
         em1.getTransaction().begin();

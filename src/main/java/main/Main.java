@@ -1,6 +1,6 @@
 package main;
 
-import entities.Address;
+import embeddables.Address;
 import entities.Company;
 
 import javax.persistence.Persistence;
@@ -21,8 +21,6 @@ public class Main {
         Company company = new Company();
         company.setAddress(address);
         company.setBudget(100_000);
-        //in bi-directional I set also info about company to address for JPA
-        address.setCompany(company);
 
         em1.getTransaction().begin();
 

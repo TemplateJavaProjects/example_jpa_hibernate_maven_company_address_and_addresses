@@ -1,5 +1,7 @@
 package entities;
 
+import embeddables.Address;
+
 import javax.persistence.*;
 
 @Entity
@@ -11,8 +13,9 @@ public class Company {
 
     private int budget;
 
-    @OneToOne(cascade = CascadeType.PERSIST)
-    @JoinColumn(name = "address_fk")
+    @Embedded
+    @AttributeOverride(name = "number", column = @Column(name = "no"))
+    @AttributeOverride(name = "street", column = @Column(name = "CompanyStreet"))
     private Address addressOfThisCompany;
 
     public int getBudget() {

@@ -1,7 +1,5 @@
 package embeddables;
 
-import entities.Company;
-
 import javax.persistence.*;
 
 @Embeddable

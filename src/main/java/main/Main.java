@@ -24,9 +24,8 @@ public class Main {
         address2.setNumber("3B");
 
         Company company = new Company();
-        company.setAddresses(new ArrayList<>());
-        company.getAddresses().add(address1);
-        company.getAddresses().add(address2);
+        company.setAddress1(address1);
+        company.setAddress2(address2);
         company.setBudget(100_000);
 
         em1.getTransaction().begin();

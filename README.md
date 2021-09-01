@@ -1,4 +1,4 @@
-Company with single address:
+**Company with single address:**
 1. Master - OneToOne Relationship
 ![](https://lh3.googleusercontent.com/pw/AM-JKLUQoGglVRMH17mPz9d5u9CMrHV2HNfSngA0q2r78VpWxxsCs2mDKX8HpToXD76BQZtA8etUnHJog7tX1ZjAjxPGlwPmjEI7NQCFNuULlMyeB5pO_lU8c0Tjj7hnIVqpV3ymklZAiuVDNLOD2EqvFpGm=w397-h74-no?authuser=0)
 2. Company_address_component_mapping
@@ -7,8 +7,8 @@ Company with single address:
 ![](https://lh3.googleusercontent.com/pw/AM-JKLWgqjMoJkKd0Xw7xju4OquEvVPpvjAs4JwVMcYN_81WuEcekPQMrVXW0IL0PLuhmTX6lJULtvQLO2ciBtgVeepBJwKTHPCfux81m1WvWftaGOQhX2NnF45nAs2Xkt1AXVi7_fEnOGZm0XHdcOculhA7=w361-h85-no?authuser=0)
 4. Company_address_MapsId
 ![](https://lh3.googleusercontent.com/pw/AM-JKLW7tZmdYHsg0KnqiBwEzzNdPANpKKb6enuEzKOoW55MHC1o4e59D2bCIm-qcecys0wY5ofjZGkmxAFuOlYmLlnxkW-WTIraNSNA50Qj8v7G-FTGvRW4a4pDlFVapS4g98gUaJoIJwXotAK2ozQxd-WI=w376-h95-no?authuser=0)
-
-Company with multiple adrdresses:
+---
+**Company with multiple adrdresses:**
 1. Company_addresses_OneToMany
 ![](https://lh3.googleusercontent.com/pw/AM-JKLVZbKAi31q8GPviVlpCSaCAM-9DQrpw3HQqO7snDssmJ4YFGjekmC0WmKoBh0xyOYzUg-8oGkm8iww-XrJlw9aPohn6ZeEyjEG4G06yM5pHd9-0dvz0onhBapL9Wn8nppgAgpCVwtVAOdUuBFCUt3L4=w382-h91-no?authuser=0)
 2. Company_adressess_Collection_Of_Embeddable_objects

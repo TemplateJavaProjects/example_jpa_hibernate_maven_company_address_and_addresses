@@ -13,7 +13,8 @@ public class Address {
     private String number;
 
 
-    @OneToOne(mappedBy = "addressOfThisCompany")
+    @ManyToOne(cascade = CascadeType.PERSIST)
+    @JoinColumn(name = "companyID")
     private Company company;
 
     public Company getCompany() {

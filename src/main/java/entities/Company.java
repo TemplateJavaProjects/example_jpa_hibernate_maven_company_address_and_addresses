@@ -1,6 +1,7 @@
 package entities;
 
 import javax.persistence.*;
+import java.util.List;
 
 @Entity
 public class Company {
@@ -11,9 +12,8 @@ public class Company {
 
     private int budget;
 
-    @OneToOne(cascade = CascadeType.PERSIST)
-    @JoinColumn(name = "address_fk")
-    private Address addressOfThisCompany;
+    @OneToMany(mappedBy = "company", cascade = CascadeType.PERSIST)
+    private List<Address> addressOfThisCompany;
 
     public int getBudget() {
         return budget;
@@ -23,11 +23,11 @@ public class Company {
         this.budget = budget;
     }
 
-    public Address getAddress() {
+    public List<Address> getAddressOfThisCompany() {
         return addressOfThisCompany;
     }
 
-    public void setAddress(Address addressOfThisCompany) {
+    public void setAddressOfThisCompany(List<Address> addressOfThisCompany) {
         this.addressOfThisCompany = addressOfThisCompany;
     }
 }

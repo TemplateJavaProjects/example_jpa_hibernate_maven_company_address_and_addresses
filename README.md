@@ -1,3 +1,3 @@
-Company_address_component_mapping
-![](https://lh3.googleusercontent.com/pw/AM-JKLU_zOcnRoJ44Uk7lyVLyOeQSKltL5kcqZUu3lFnq4sfNL3RwvxU4_SR1ziG5citLgXIA7hrbc4Q28-o-yyyVNV6vDVTan1d6QmBqqkbA68IEtpWkCYLNzxIQ29_Ps2zxyKnNdMwtSqqmPCDHQoPEYQt=w250-h90-no?authuser=0)
-![](https://lh3.googleusercontent.com/pw/AM-JKLWixjhPlSTXsDhElyL5ZXgBgOPA3oMmUz5wZQFmxSEJOP_InJu3a6NSb5dvG6dm_PTQBiwkyYWDg_m7F-P-zA6zHxOGZYZSsztxldJuhI_5iCJUNTcuaqBe9pVCVnnitjUEiND48zAtd3ib5lZPN8_x=w682-h283-no?authuser=0)
+Company_adressess_Collection_Of_Embeddable_objects
+![](https://lh3.googleusercontent.com/pw/AM-JKLV8sFwHcy0AraBXrPhfhuVJaSXv-WElmbGxPJnjoQTOPHzhQQ4viF4C4_e93A7lfJf8s-MRBgnLNVSNzzgj_OOSuzp5FmVXIxwtiHNsKbq0qqpxiwzernx3tUj5zsZ9x8PZmoCSVJEu9OoF0o7v_Fw5=w380-h102-no?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AM-JKLXmW-zVTM3aYU6f-dQC5TuqAwmU6hm-PAg8uP7dUKYHWqGyoBEqnZQvfchQ-T7igBMHceAOk0-M9qNBXhzA7sjkl7R4Wd3KkkHqX03KviD-oo2myBXo1raNnYwQmf_S7Zx8l9szrOYpAPFsV1wyX3jj=w792-h331-no?authuser=0)

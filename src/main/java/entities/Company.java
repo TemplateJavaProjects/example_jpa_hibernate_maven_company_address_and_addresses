@@ -3,6 +3,7 @@ package entities;
 import embeddables.Address;
 
 import javax.persistence.*;
+import java.util.Collection;
 
 @Entity
 public class Company {
@@ -13,10 +14,12 @@ public class Company {
 
     private int budget;
 
-    @Embedded
+    @ElementCollection
+    @CollectionTable(name = "tableWithAddresses", joinColumns = @JoinColumn(name = "CompanyID"))
     @AttributeOverride(name = "number", column = @Column(name = "no"))
     @AttributeOverride(name = "street", column = @Column(name = "CompanyStreet"))
-    private Address addressOfThisCompany;
+    @Column(name = "CompanyAddress")
+    private Collection<Address> addresses;
 
     public int getBudget() {
         return budget;
@@ -26,11 +29,11 @@ public class Company {
         this.budget = budget;
     }
 
-    public Address getAddress() {
-        return addressOfThisCompany;
+    public Collection<Address> getAddresses() {
+        return addresses;
     }
 
-    public void setAddress(Address addressOfThisCompany) {
-        this.addressOfThisCompany = addressOfThisCompany;
+    public void setAddresses(Collection<Address> addresses) {
+        this.addresses = addresses;
     }
 }
